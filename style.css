@@ -44,7 +44,7 @@ header{
 }
 
 header:hover{
-	opacity: 1;
+	opacity: 10;
 	background: var(--main-header-background);
 }
 
@@ -65,7 +65,7 @@ a.nav-link{
 	padding: 5px 10px;
 	text-decoration: none;
 	color: var(--main-fonts-color-h);
-	font-family: var(--main-font-family);
+	/* font-family: var(--main-font-family); */
 	cursor: pointer;
 	text-transform: uppercase;
 }
