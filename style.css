@@ -217,7 +217,22 @@ h3{
 	border-radius:10px 10px 0px 0px;
 }
 
+.card2 img{
+	width: 100%;
+	height:70%;
+	border-radius:10px 10px 0px 0px;
+}
+
 .card .work-content{
+	text-align: center;
+	padding: 10px 5px;
+	font-size: 1rem;
+	color: var(--main-fonts-color);
+	font-family: var(--main-font-family);
+	cursor: pointer;
+}
+
+.card2 .work-content{
 	text-align: center;
 	padding: 10px 5px;
 	font-size: 1rem;
@@ -230,11 +245,23 @@ h3{
 	text-decoration: none;
 }
 
+.card2 a{
+	text-decoration: none;
+}
+
 .card .work-content:hover{
     color:#202020;
 }
 
+.card2 .work-content:hover{
+    color:#202020;
+}
+
 .card:hover{
+	box-shadow: 0 0 1.5rem gray;
+}
+
+.card2:hover{
 	box-shadow: 0 0 1.5rem gray;
 }
 
