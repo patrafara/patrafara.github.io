@@ -137,6 +137,15 @@ p.jabat{
 	text-shadow: 0px 0px 40px var(--main-decor-color);
 }
 
+ h4{
+	padding-bottom: 15px;
+    letter-spacing: normal;
+    font-family: var(--main-font-family);
+	font-style: normal;
+	font-size: 40px;
+	color: var(--main-fonts-color-h);
+	text-shadow: 0px 0px 40px var(--main-decor-color);
+}
 
 /*──────────────────
     social media
