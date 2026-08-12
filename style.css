@@ -79,6 +79,36 @@ a.nav-link{
     background: var(--main-decor-color);
 }
 
+
+
+
+/*──────────────────
+    BUTTON PORTFOLIO
+──────────────────*/
+/* Tampilan awal tombol */
+a.btn-portfolio {
+  display: inline-block;
+  padding: 12px 32px;
+  margin-top: 20px;
+  color: #333333; /* Warna teks abu-abu gelap */
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px; /* Memberikan jarak antar huruf agar terkesan elegan */
+  border: 1px solid #333333; /* Garis tepi tipis */
+  background-color: transparent;
+  border-radius: 3px; /* Sudut sedikit melengkung, ubah ke 0 jika ingin sudut tajam */
+  transition: all 0.3s ease; /* Efek animasi transisi yang halus */
+}
+
+/* Efek saat kursor diarahkan ke tombol (Hover) */
+a.btn-portfolio:hover {
+  background-color: #333333; /* Latar belakang berubah gelap */
+  color: #ffffff; /* Teks berubah menjadi putih */
+}
+
+
+
 /*──────────────────
        home
 ──────────────────*/
@@ -129,34 +159,6 @@ h3{
 	color: var(--main-fonts-color-h);
 	/*text-shadow: 0px 0px 40px var(--main-decor-color);*/
 }
-
-
-/*──────────────────
-    BUTTON PORTFOLIO
-──────────────────*/
-/* Tampilan awal tombol */
-a.btn-portfolio {
-  display: inline-block;
-  padding: 12px 32px;
-  margin-top: 20px;
-  color: #333333; /* Warna teks abu-abu gelap */
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 2px; /* Memberikan jarak antar huruf agar terkesan elegan */
-  border: 1px solid #333333; /* Garis tepi tipis */
-  background-color: transparent;
-  border-radius: 3px; /* Sudut sedikit melengkung, ubah ke 0 jika ingin sudut tajam */
-  transition: all 0.3s ease; /* Efek animasi transisi yang halus */
-}
-
-/* Efek saat kursor diarahkan ke tombol (Hover) */
-a.btn-portfolio:hover {
-  background-color: #333333; /* Latar belakang berubah gelap */
-  color: #ffffff; /* Teks berubah menjadi putih */
-}
-
-
 
 /*──────────────────
     social media
