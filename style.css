@@ -94,7 +94,7 @@ a.btn-portfolio {
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
-	font-family: var(--main-font-family);
+	/*font-family: var(--main-font-family);*/
   letter-spacing: 2px; /* Memberikan jarak antar huruf agar terkesan elegan */
   border: 1px solid #333333; /* Garis tepi tipis */
   background-color: transparent;
@@ -106,7 +106,7 @@ a.btn-portfolio {
 a.btn-portfolio:hover {
   background-color: #333333; /* Latar belakang berubah gelap */
   color: #ffffff; /* Teks berubah menjadi putih */
-	font-family: var(--main-font-family);
+	/*font-family: var(--main-font-family);*/
 }
 
 
