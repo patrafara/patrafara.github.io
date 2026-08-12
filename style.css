@@ -73,6 +73,17 @@ a.nav-link{
 	background: var(--main-decor-color);
 }
 
+a.nav-link2{
+	margin: 2px;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: var(--main-fonts-color);
+	font-family: var(--main-font-family);
+	cursor: pointer;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
 .nav-link:hover {
 	color: #000000;
     background: var(--main-decor-color);
