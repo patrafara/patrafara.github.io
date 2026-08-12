@@ -3,6 +3,7 @@
 :root{
 	--main-background: #f1ebe1;
 	--main-fonts-color: #21252e;
+	--main-fonts-color-h: #21252e;
 	--main-decor-color:#f4a141;
     --main-header-background:#f0ca58;
 	--main-font-family: 'Poppins', sans-serif;
@@ -63,7 +64,7 @@ a.nav-link{
 	margin: 2px;
 	padding: 5px 10px;
 	text-decoration: none;
-	color: var(--main-fonts-color);
+	color: var(--main-fonts-color-h);
 	font-family: var(--main-font-family);
 	cursor: pointer;
 	text-transform: uppercase;
@@ -85,7 +86,7 @@ a.nav-link{
 #home{ 	
 	margin: auto;
 	height: 100vh;
-	color: var(--main-fonts-color);
+	color: var(--main-fonts-color-h);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -106,7 +107,7 @@ a.nav-link{
 
 .intro {
 	text-align:center;
-    color: var(--main-fonts-color);
+    color: var(--main-fonts-color-h);
 	z-index: 1;
 	margin: auto;
 	padding: 20px;
@@ -125,7 +126,7 @@ a.nav-link{
     font-family: var(--main-font-family);
 	font-style: normal;
 	font-size: 60px;
-	color: var(--main-fonts-color);
+	color: var(--main-fonts-color-h);
 	text-shadow: 0px 0px 40px var(--main-decor-color);
 }
 
@@ -240,7 +241,7 @@ a.nav-link{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	color: var(--main-fonts-color);
+	color: var(--main-fonts-color-h);
 }
 	
 #contact p{
