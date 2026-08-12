@@ -135,7 +135,7 @@ h3{
     BUTTON PORTFOLIO
 ──────────────────*/
 /* Tampilan awal tombol */
-.btn-portfolio {
+a.btn-portfolio {
   display: inline-block;
   padding: 12px 32px;
   margin-top: 20px;
@@ -151,7 +151,7 @@ h3{
 }
 
 /* Efek saat kursor diarahkan ke tombol (Hover) */
-.btn-portfolio:hover {
+a.btn-portfolio:hover {
   background-color: #333333; /* Latar belakang berubah gelap */
   color: #ffffff; /* Teks berubah menjadi putih */
 }
